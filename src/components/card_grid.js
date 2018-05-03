@@ -1,8 +1,8 @@
 import React from 'react';
 import { css } from 'emotion';
 import PropTypes from 'prop-types';
-
 import Card from './card';
+//import Carousel from './carousel';
 
 const cardGrid = css`
   display: flex;
@@ -15,6 +15,7 @@ const cardGrid = css`
     margin: 0 10%;
   }
 `;
+
 
 // const overFlow = css`
 //   overflow: auto;

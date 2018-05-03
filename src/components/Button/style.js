@@ -2,7 +2,7 @@ import { css } from 'emotion';
 
 
 const buttonStyle = css`
-  background-color: #F39C12;
+  background-color:#EB984E;
   color: #000;
   border-radius: 1px;
   padding: 0.5rem 1.5rem;
@@ -12,7 +12,7 @@ const buttonStyle = css`
   border: none;
   color: white;
   text-align: center;
-  
+
 `;
 
 export default buttonStyle;

@@ -5,3 +5,6 @@ body {
     overflow-x: hidden;
 }
 
+.css-cardContainer{
+    overflow-y: hidden;
+}

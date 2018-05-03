@@ -12,7 +12,6 @@ const campaign = css`
 `;
 const buttonTypeA = css`
 
-
 `;
 const buttonTypeB = css`
     

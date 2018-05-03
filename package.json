@@ -6,6 +6,7 @@
     "emotion": "^9.1.2",
     "emotion-theming": "^9.1.2",
     "lodash": "^4.17.5",
+    "nuka-carousel": "^4.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-emotion": "^9.1.2",

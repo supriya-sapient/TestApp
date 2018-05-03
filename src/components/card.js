@@ -5,6 +5,7 @@ import React from 'react';
 import Button from './Button';
 import Panel from './Panel';
 import Rating from './Rating';
+//import Carousel from './carousel';
 
 const cardStyles = css`
   text-align: center;
@@ -23,20 +24,23 @@ const cardContainer = css`
   overflow: auto;
   
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
   }
 `;
 
 const Card = ({ cardData }) => (
   <div className={cardContainer}>
     {!!cardData &&
-      cardData.map(({ image, heading, title, rating, description, index }) => (
+      cardData.map(({ image, heading, title, rating, description, index, cost }) => (
         <Panel className={cardStyles} key={index}>
           <img src={image} alt={heading} />
           <h2>{title}</h2>
           <Rating value={rating} />
           <p>{description}</p>
           <Button>Add to Cart</Button>
+          <p>{cost}</p>
         </Panel>
       ))}
   </div>
