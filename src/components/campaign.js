@@ -28,10 +28,10 @@ const headTypeB = css`
 
 const Campaign = () => (
   <div className={[campaign, width].join(' ')}>
-   <Button className={buttonTypeA}>Academy Exclusive</Button>
+   <Button className={buttonTypeA}>jUST AN aPP</Button>
    <h2 className={headTypeB}>Wenzel Campaign Collection</h2>
    <div></div>
-   <h1 className={headTypeA}>Find Your Wildernest</h1>
+   <h1 className={headTypeA}>FIND YOUR WILDERNEST</h1>
    <Button className={buttonTypeB}>Shop Now</Button>
   </div>
 );
